@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am an M.A. student in the Educational Innovation, Technology, and Entrepreneurship program at the School of Education, UNC-Chapel Hill. I also work as a Research Assistant at the Carolina Population Center under Prof. Manuel Schechtl. **I will be joining the Department of Sociology at the University of Virginia as a PhD student in Fall 2026.**
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+Prior to this, I obtained a B.A. (*Hons*) in Politics, Economics, and Philosophy from Renmin University of China, and was a summer exchange student at UC Berkeley.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+My research focuses on social stratification, comparative historical analysis, life course, and health disparities. I am particularly interested in how categorical distinctions, especially state classifications, structure mobility, resource access, and cumulative health inequalities across populations.

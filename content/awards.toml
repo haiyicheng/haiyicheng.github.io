@@ -2,26 +2,74 @@ type = "card"
 title = "Awards"
 description = "Honors and awards I have received."
 
+# --- UNC-Chapel Hill ---
+
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "MEITE Student Academic Travel Fellowship"
+subtitle = "UNC-Chapel Hill"
 date = "2025"
-content = "Description of the award."
+content = "$1,000"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Graduate Student Transportation Grant"
+subtitle = "UNC-Chapel Hill"
+date = "2025"
+content = "Approx. $300"
+
+[[items]]
+title = "School of Education Student Travel Award"
+subtitle = "UNC-Chapel Hill"
+date = "2025"
+content = "$500"
+
+# --- Renmin University of China ---
+
+[[items]]
+title = "Distinguished Graduates"
+subtitle = "Renmin University of China"
 date = "2024"
-content = "Description of the award."
+content = ""
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "ICBC Innovation Excellence Scholarship"
+subtitle = "Renmin University of China"
 date = "2023"
-content = "Description of the award."
+content = "Approx. $700"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Outstanding Winner of Undergraduate Research Award Competition"
+subtitle = "Renmin University of China"
 date = "2022"
-content = "Description of the award."
+content = ""
+
+[[items]]
+title = "National College Student Research Innovation Fellowship"
+subtitle = "Renmin University of China"
+date = "2022"
+content = "Approx. $1,400"
+
+[[items]]
+title = "Linghui Essay Award for Ethics Studies"
+subtitle = "Renmin University of China"
+date = "2021"
+content = "Approx. $700"
+
+# --- Other Institutions ---
+
+[[items]]
+title = "Center for Right-Wing Studies Mini-Grant"
+subtitle = "UC Berkeley"
+date = "2025"
+content = "$500"
+
+[[items]]
+title = "Student Forum Travel Award, ASA Annual Meeting"
+subtitle = "American Sociological Association"
+date = "2023"
+content = "Approx. $400"
+
+[[items]]
+title = "Bursary Funding, BSA Work, Employment and Society Conference"
+subtitle = "British Sociological Association"
+date = "2023"
+content = "Approx. $150"

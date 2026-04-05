@@ -30,6 +30,8 @@ const markdownComponents = {
 };
 
 export default function CardPage({ config, embedded = false }: { config: CardPageConfig; embedded?: boolean }) {
+    const items = config.items || [];
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -47,8 +49,11 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                 )}
             </div>
 
+            {items.length === 0 ? (
+                <p className="text-neutral-500 dark:text-neutral-400 italic">No content yet.</p>
+            ) : (
             <div className={`grid ${embedded ? "gap-4" : "gap-6"}`}>
-                {config.items.map((item, index) => (
+                {items.map((item, index) => (
                     <motion.div
                         key={index}
                         initial={{ opacity: 0, y: 20 }}
@@ -86,6 +91,7 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                     </motion.div>
                 ))}
             </div>
+            )}
         </motion.div>
     );
 }

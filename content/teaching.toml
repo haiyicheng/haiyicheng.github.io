@@ -1,10 +1,12 @@
 type = "card"
 title = "Teaching"
 description = "Courses I have taught or assisted with."
+items = []
 
-[[items]]
-title = "Example Course"
-subtitle = "Teaching Assistant"
-date = "2024"
-content = "Description of the course and responsibilities. Content of this course can be found [here](https://example.com)."
-tags = ["Undergraduate", "CS"]
+# TODO: Add teaching experience items
+# [[items]]
+# title = "Course Name"
+# subtitle = "Role"
+# date = "Year"
+# content = "Description"
+# tags = ["tag1", "tag2"]
