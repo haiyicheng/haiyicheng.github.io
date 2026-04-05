@@ -134,7 +134,7 @@ export default function Profile({ author, social, features, researchInterests }:
                 <p className="text-lg text-accent font-medium mb-1">
                     {author.title}
                 </p>
-                <p className="text-neutral-600 mb-2">
+                <p className="text-lg text-accent font-medium mb-2">
                     {author.institution}
                 </p>
             </div>
