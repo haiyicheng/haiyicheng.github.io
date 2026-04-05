@@ -9,6 +9,7 @@ export interface I18nConfig {
   persist?: boolean;
   switcher?: boolean;
   labels?: Record<string, string>;
+  disabled_locales?: string[];
 }
 
 export interface I18nRuntimeConfig {
@@ -20,4 +21,5 @@ export interface I18nRuntimeConfig {
   persist: boolean;
   switcher: boolean;
   labels: Record<string, string>;
+  disabledLocales: string[];
 }

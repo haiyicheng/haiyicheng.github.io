@@ -73,6 +73,7 @@ export default function LanguageToggle({ i18n }: LanguageToggleProps) {
               <button
                 key={localeOption}
                 onClick={() => {
+                  if (localeOption === 'zh') return;
                   setLocale(localeOption);
                   setIsOpen(false);
                 }}
@@ -80,9 +81,11 @@ export default function LanguageToggle({ i18n }: LanguageToggleProps) {
                   'flex items-center justify-between w-full px-3 py-2 text-sm',
                   'hover:bg-neutral-50 dark:hover:bg-neutral-700',
                   'transition-colors duration-200',
-                  currentLocale === localeOption
-                    ? 'text-accent bg-accent/10'
-                    : 'text-neutral-700 dark:text-neutral-300'
+                  localeOption === 'zh'
+                    ? 'text-neutral-400 dark:text-neutral-600 pointer-events-none opacity-40'
+                    : currentLocale === localeOption
+                      ? 'text-accent bg-accent/10'
+                      : 'text-neutral-700 dark:text-neutral-300'
                 )}
               >
                 <span>{i18n.labels[localeOption] || localeOption}</span>

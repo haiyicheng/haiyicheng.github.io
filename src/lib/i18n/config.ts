@@ -26,6 +26,8 @@ export function getRuntimeI18nConfig(i18n?: I18nConfig): I18nRuntimeConfig {
     labels[locale] = i18n?.labels?.[locale] || locale;
   }
 
+  const disabledLocales = uniqueLocales(i18n?.disabled_locales ?? []);
+
   return {
     enabled: i18n?.enabled ?? false,
     locales,
@@ -35,6 +37,7 @@ export function getRuntimeI18nConfig(i18n?: I18nConfig): I18nRuntimeConfig {
     persist: i18n?.persist ?? true,
     switcher: i18n?.switcher ?? true,
     labels,
+    disabledLocales,
   };
 }
 

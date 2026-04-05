@@ -34,6 +34,8 @@ fixed_locale = "en"
 persist = true
 # Show a language switcher on the top right corner
 switcher = true
+# Locales to show as disabled (grayed out, non-clickable) in the switcher
+disabled_locales = ["zh"]
 
 [i18n.labels]
 zh = "中文"
