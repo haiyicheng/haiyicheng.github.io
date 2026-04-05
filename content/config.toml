@@ -1,11 +1,12 @@
 [site]
-title = "Haiyi Cheng"
+title = "CHENG Haiyi"
 description = "Incoming PhD Student in Sociology, University of Virginia."
 favicon = "/favicon.svg"
 last_updated = "April 5, 2026"
 
 [author]
-name = "Haiyi Cheng"
+name = "CHENG Haiyi"
+name_secondary = "程海逸"
 title = "M.A. Student, UNC-Chapel Hill"
 institution = "University of North Carolina at Chapel Hill"
 avatar = "/bio.jpg"

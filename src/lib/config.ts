@@ -12,6 +12,7 @@ export interface SiteConfig {
   };
   author: {
     name: string;
+    name_secondary?: string;
     title: string;
     institution: string;
     avatar: string;
