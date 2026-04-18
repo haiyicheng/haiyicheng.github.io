@@ -49,7 +49,7 @@ target = "about"
 href = "/"
 
 [[navigation]]
-title = "Publications"
+title = "Researches"
 type = "page"
 target = "publications"
 href = "/publications"
