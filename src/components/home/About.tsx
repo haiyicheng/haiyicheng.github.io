@@ -28,7 +28,7 @@ export default function About({ content, title }: AboutProps) {
                         h2: ({ children }) => <h2 className="text-2xl font-serif font-bold text-primary mt-8 mb-4 border-b border-neutral-200 dark:border-neutral-800 pb-2">{children}</h2>,
                         h3: ({ children }) => <h3 className="text-xl font-semibold text-primary mt-6 mb-3">{children}</h3>,
                         p: ({ node, children }) => {
-                            const hasImg = node?.children?.some((child: { tagName?: string }) => child.tagName === 'img');
+                            const hasImg = node?.children?.some((child) => 'tagName' in child && child.tagName === 'img');
                             if (hasImg) {
                                 return <div className="flex items-start gap-4 mb-4">{children}</div>;
                             }
@@ -53,7 +53,7 @@ export default function About({ content, title }: AboutProps) {
                         strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
                         em: ({ children }) => <em className="italic text-neutral-600 dark:text-neutral-500">{children}</em>,
                         img: ({ src, alt }) => (
-                            <Image src={src || ''} alt={alt || ''} width={320} height={240} className="w-1/2 max-w-xs h-auto object-contain rounded-lg shadow-md" />
+                            <Image src={String(src || '')} alt={alt || ''} width={320} height={240} className="w-1/2 max-w-xs h-auto object-contain rounded-lg shadow-md" />
                         ),
                     }}
                 >
